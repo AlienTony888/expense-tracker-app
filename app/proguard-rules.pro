@@ -1,0 +1,6 @@
+-keep class com.alienton.expensetrackerapp.** { *; }
+-keep class androidx.** { *; }
+-keep class com.google.** { *; }
+-keepattributes SourceFile,LineNumberTable
+-keepattributes *Annotation*
+-keep public class * extends java.lang.Exception
